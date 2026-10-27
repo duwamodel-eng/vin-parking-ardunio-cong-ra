@@ -263,7 +263,7 @@ void rejectCard() {
   lcd.clear();
 
   lcd.setCursor(0, 0);
-  lcd.print("THE KHONG HOP");
+  lcd.print("THE KHONG HOP LE");
 
   lcd.setCursor(0, 1);
   lcd.print("TU CHOI!");
