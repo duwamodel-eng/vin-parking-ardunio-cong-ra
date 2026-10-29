@@ -193,7 +193,7 @@ bool requestExitAuthorization(String uid) {
 
   unsigned long start = millis();
 
-  while (millis() - start < 40000UL) {
+  while (millis() - start < 90000UL){
     if (Serial.available() > 0) {
       String response = Serial.readStringUntil('\n');
       response.trim();
